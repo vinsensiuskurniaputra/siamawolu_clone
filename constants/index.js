@@ -6,6 +6,20 @@ import {
     progressBarGray,
 } from "../assets"
 
+import {
+  HomeIcon,
+  PencilSquareIcon,
+  ChartBarIcon,
+  UserIcon,
+} from "@heroicons/react/20/outline"
+
+import { 
+  CalendarIcon,
+  ClipboardDocumentListIcon,
+  FolderIcon,
+  PhoneIcon,
+ } from "@heroicons/react/20/solid";
+
 export const onBoardings = [
   {
     id: "onboarding-1",
@@ -81,5 +95,59 @@ export const onBoardings = [
     content:
       "SiAmawolu sangat praktis. dengan tampilan yang menarik, menjadikan kita nyaman dalam menggunakannya. ",
     buttonText: "Get Started",
+  },
+];
+
+export const bottomNavbar = [
+  {
+    id: "home",
+    icon: HomeIcon,
+    name: "Home",
+  },
+  {
+    id: "presensi",
+    icon: PencilSquareIcon,
+    name: "Presensi",
+  },
+  {
+    id: "statistik",
+    icon: ChartBarIcon,
+    name: "Statistic",
+  },
+  {
+    id: "profil",
+    icon: UserIcon,
+    name: "Profil",
+  },
+];
+
+export const dashboardMenu = [
+  {
+    id: "jadwal",
+    icon: CalendarIcon,
+    iconColor: "#A3A3A3",
+    bgColor: "#F5F5F5",
+    name: "Jadwal",
+  },
+  {
+    id: "ijin",
+    icon: ClipboardDocumentListIcon,
+    iconColor: "#367A59",
+    bgColor: "#F2F2F2",
+    name: "Ijin",
+  },
+  {
+    id: "riwayat",
+    icon: FolderIcon,
+    iconColor: "#CC9424",
+    bgColor: "#FAF1E0",
+    name: "Riwayat",
+  },
+  {
+    id: "hub-admin",
+    icon: PhoneIcon,
+    iconColor: "#BD251C",
+    bgColor: "#FFF4F2",
+    name: "Hub.Admin",
   },
 ];
